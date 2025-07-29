@@ -32,7 +32,7 @@ Cómo visualizar
 
 1. Descarga o clona este repositorio.
 2. Abre el archivo `index.html` con tu navegador.
-3. También puedes acceder a la versión publicada aquí: [agrega aquí el enlace de GitHub Pages, si publicaste]
+3. También puedes acceder a la versión publicada aquí: https://github.com/jeimy0607/pagina-html5.git
 
 Autor
 
