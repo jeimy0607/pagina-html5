@@ -1,0 +1,117 @@
+<!DOCTYPE html> <!-- Declaración del tipo de documento para HTML5 -->
+<html lang="en"> <!-- Lenguaje principal del documento -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Codificación de caracteres para admitir caracteres especiales -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Adaptación del sitio a dispositivos móviles -->
+    <title>Pagina HTML5</title> <!-- Título que se muestra en la pestaña del navegador -->
+</head>
+
+<body>
+
+    <!-- Encabezado principal de la página -->
+    <header>
+
+        <!-- Logotipo de la empresa -->
+        <img src="imgs/logo.png" alt="Logotipo de Cuero y Color" style="width: 200px;">
+
+        <!-- Menú de navegación principal del sitio -->
+        <nav aria-label="Menú principal">
+            <!-- Lista con las opciones de navegación -->
+            <ul style="list-style: none; display: flex; gap: 10px;"> <!-- Lista sin viñetas y con elementos horizontales -->
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#bienvenida">Bienvenida</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#tienda">Tienda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal de la página -->
+    <main>
+        <!-- Sección de bienvenida -->
+        <section id="bienvenida">
+            <h1>¡HOLA! Bienvenido a Cuero y color</h1>
+            <h2>¡Una marca nacida del amor por la piel!</h2>
+        </section>
+
+        <!-- Información general sobre la empresa -->
+        <section id="inicio">
+            <h2>Sobre nosotros</h2>
+            <p>
+                Somos una empresa con 26 años de experiencia en el arte de la curtiembre, dedicada a todo el proceso del cuero, desde su tratamiento hasta su comercialización...
+            </p>
+        </section>
+
+        <!-- Artículo con contenido adicional -->
+        <article>
+            <h4>Venta del cuero como insumo y Productos Artesanales Exclusivos</h4>
+            <h2>Donde el cuero cobra vida, la artesanía deja huella y el estilo perdura</h2>
+            <p>Sumérgete en la elegancia y calidad de nuestros productos de cuero artesanales...</p>
+        </article>
+
+        <!-- Información complementaria-->
+        <aside>
+            <h3>Oferta especial</h3>
+            <p>¡Envío gratis por compras mayores a $250.000 solo esta semana!</p>
+        </aside>
+
+        <!-- Sección de productos -->
+        <section id="productos">
+            <h2>Productos</h2>
+
+            <!-- Cada producto como un artículo -->
+            <article>
+                <h3>Delantal en cuero para asados</h3>
+                <img src="imgs/delantal.jpg" alt="Delantal en cuero" width="200">
+                <p>¡Delantal personalizable con logo de tu empresa o tu nombre!</p>
+                <p><strong>$170.000</strong></p>
+            </article>
+
+            <article>
+                <h3>Porta Cuchillos-Utensilios</h3>
+                <img src="imgs/portacuchillos.jpg" alt="Porta Cuchillos" width="200">
+                <p>Estuche en cuero para utensilios de cocina</p>
+                <p><strong>$160.000</strong></p>
+            </article>
+
+            <article>
+                <h3>Morral Milano</h3>
+                <img src="imgs/morral.jpg" alt="Morral en cuero" width="200">
+                <p>Morral 100% cuero</p>
+                <p><strong>$320.000</strong></p>
+            </article>
+        </section>
+    </main>
+
+    <!-- Pie de página con información de contacto -->
+    <footer>
+        <!-- Información de contacto en una lista-->
+        <ul>
+            <li>3133525077</li>
+            <li>Calle 17 sur #24d-04</li>
+            <li>Bogotá, Colombia</li>
+        </ul>
+
+        <!-- Íconos con enlaces a redes sociales dentro de una lista, organizada con el style de forma horizontal-->
+        <ul style="list-style: none; display: flex;">
+            <li>
+                <a href="https://wa.me/573133525077" aria-label="Contáctanos por WhatsApp">
+                    <img src="imgs/whatsapp.png" alt="Logo de WhatsApp" style="width: 30px; height: 30px;">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/peleteria_cuero_y_color?igsh=ZTNrdmg5OXBycnR2&utm_source=qr" aria-label="Visitanos en instagram">
+                    <img src="imgs/instagram.png" alt="Logo de Instagram" style="width: 30px; height: 30px;">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/share/16tm213MLf/?mibextid=wwXIfr" aria-label="Visitanos en Facebook">
+                    <img src="imgs/facebook.png" alt="Logo de Facebook" style="width: 30px; height: 30px;">
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+</html>
